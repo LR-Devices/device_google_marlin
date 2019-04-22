@@ -11,6 +11,14 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     RcsService \
     PresencePolling
+
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext \
+    ims-ext-common \
+    qti-telephony-common
+PRODUCT_BOOT_JARS += \
+    telephony-ext
     
 #Permissons
 PRODUCT_PROPERTY_OVERRIDES += \
